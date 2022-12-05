@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>College</title>
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+  </head>
+  <body>
+    <!------- header/MENU ------>
+<section class="header">
+  <nav>
+  <a href="index.html"><img src="images/logo.svg"></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Course</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <!----- TEXT ------>
+    <div class="text-box">
+      <h1>Midas University</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <a href="" class="hero-btn">More Info</a>
+      </div>
+  </section>
+  <!-- COURSE --->
+  <section class="course">
+    <h1>Courses</h1>
+    <p>Lorem Ipsum Courses. Courses Lorem Ipsum.</p>
+    <div class="row">
+      <div class="course-col">
+        <h3>Virtual Reality</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+<div class="course-col">
+  <h3>Augmented Reality</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+<div class="course-col">
+  <h3>Artifical Intelligence</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div>
+</div>
+  </section>
+  <!------ CAMPUS------------->
+<section class="campus">
+  <h1>High Tech Campus</h1>
+  <p>Lorem Ipsum Campus</p>
+  <div class="row">
+    <div class="campus-col">
+      <img src="images/2.jpg">
+      <div class="layer">
+        <h3>Austin</h3>
+      </div>
+    </div>
+    <div class="campus-col">
+      <img src="images/3.jpg">
+      <div class="layer">
+        <h3>New York</h3>
+      </div>
+    </div>
+    <div class="campus-col">
+      <img src="images/10.jpg">
+      <div class="layer">
+        <h3>San Francisco</h3>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!------ Facilities---->
+  <section class="facilities">
+    <h1>Facilities</h1>
+    <p>Lorem Ipsum Facilities. Facilities lorem ipsum</p>
+    <div class="row">
+      <div class="facilities-col">
+        <img src="images/13.jpg">
+        <h3>World Class Tech Students</h3>
+        <p>Lorem Ipsum Students</p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/14.jpg">
+          <h3>Elite Technology Lap</h3>
+          <p>Lorem Ipsum Tech Lab</p>
+          </div>
+          <div class="facilities-col">
+            <img src="images/15.jpg">
+            <h3>Top 1% of Professors</h3>
+            <p>Lorem Ipsum Professors</p>
+            </div>
+        </div>
+    </section>
+<!--- COMMUNITY------>
+    <section class="community">
+      <h1>Student Community</h1>
+      <p>Lorem Ipsum about Midas University</p>
+      <div class="row">
+        <div class="community-col">
+          <img src="images/u1.jpg">
+          <div>
+            <p>Lorem Ipsum</p>
+            <h3>K.S.P</h3>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="community-col">
+            <img src="images/u2.jpg">
+            <div>
+              <p>Lorem Ipsum</p>
+              <h3>Jordan Plus</h3>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half"></i>
+              </div>
+            </div>
+        </div>
+      </section>
+      <section class="cta">
+        <h1>Enroll into our World Class Tech Courses</h1>
+      <a href="">Enroll Now!</a>
+      </section>
+      <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum lorem ipsum lorem ipsum.</p>
+        <div class="icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-reddit"></i>
+          </div>
+          <p>Made by DevTyler</p>
+        </section>
+  <!---- Script ----->
+  <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+  </script>
+  </body>
+</html>
